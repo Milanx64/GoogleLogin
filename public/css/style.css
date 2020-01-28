@@ -1,0 +1,210 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+.content{
+    float: left;
+    
+    
+}
+.content img {
+    position: relative;
+}
+.start{
+    padding-bottom: 6em;
+    padding-top: 6em;
+}
+#track-name{
+    font-family: ;
+    width: 80%;
+    font-size: 1.5em;
+    background-color: rgba(48, 177, 233, 0.803);
+    text-align: center;
+    position: absolute;
+    top: 9.5em;
+    left:1em;
+}
+#section-track{
+    background-color: lemonchiffon;
+    margin-bottom: 6em;
+    padding-bottom: 6em;
+}
+#section-track-content h3 {
+    color: black;
+}
+/*For tracks*/
+#section-a{
+    margin: 1em;
+    padding: 1em;
+    background-color: #81818449;
+    margin-bottom: 0em;
+}
+#section-a-content img {
+    float: left;
+}
+#section-a-content p, h1 {
+    text-align: center;
+    margin-left: 0.8em;
+    margin-top: 1.5em;
+    font-family: ;
+}
+#section-b{
+    margin-top:0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    background-color: rgba(255, 218, 10, 0.279);
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+#section-b-content img{
+    float: right;
+}
+
+#section-b-content p{
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    display: inline;
+}
+#about{
+    margin-top: 6em;
+    background-color: #81818449;
+}
+#about h2{
+    color: white;
+}
+#section-c{
+    margin-bottom: 4em;
+    background-color: #81818449;
+}
+#form{
+    margin-bottom: 4em;
+}
+.My-link{
+	text-align: center;
+	text-decoration: none;
+	
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0.5em;
+	margin-bottom: 2em;
+	margin-top: 0;
+	
+}
+.My-linkh1:hover{
+	text-decoration: none;
+}
+#img_loc{
+	width: 100%;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+	border: 2px solid #7dbfeb;
+}
+p.loc_text{
+	
+	font-family: 'Raleway', sans-serif;
+	background-color: #7dbfeb;
+	margin-top: 0px;
+	margin-left: 7px;
+	margin-right: -7px;
+	padding: 10px;
+    
+    
+}
+/*tekst kada se predje misem preko njega*/
+p.loc_text:hover {
+	background-color: #7dbfeb;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*for footer*/
+#footer{
+    margin-top: 2em;
+	height: auto;
+	padding: 1em;
+	background-color: #151615;
+	
+}
+
+i{
+	margin: 0.2em;
+}
+/* levi deo, sa kontact podacima, definise boju, velicinu poyiciju*/
+
+ /*ikonice socijlanih mreza*/
+i.fa-facebook-official {
+	opacity: 0.5;
+	
+}
+i.fa-twitter{
+	opacity: 0.5;
+	
+}
+i.fa-youtube{
+	opacity: 0.5;
+	
+}
+i.fa-instagram{
+	opacity: 0.5;
+	
+}
+i.fa-rss{
+	opacity: 0.5;
+	
+}
+i.fa-google-plus-official{
+	opacity: 0.5;
+	
+}
+i:hover {
+	opacity: 1;
+}
+
+
+#kontakt{
+	border-top: solid #f2f2f2 3px;
+	border-right: solid #f2f2f2 3px;
+	color: white;
+	text-align: center;
+	
+}
+#mreze{
+	border-top: solid #f2f2f2 3px;
+	border-right: solid #f2f2f2 3px;
+	color: white;
+}
+#logo{
+	border-top: solid #f2f2f2 3px;
+	color: white;
+	text-align: center;
+
+}
+
+
+.img{
+	margin-top:5em;
+}
+
+/*kontakt*/
+.kontakt-img{
+	height: 30em;
+}
+.lokacija{
+	color: white;
+}
+.poruka{
+	color: white;
+	
+}
+.polje{
+	color: black;
+}

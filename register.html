@@ -1,0 +1,54 @@
+<html>  
+	<head>
+		<title> Registracija </title>
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<style>
+			
+			html, body {
+				height: 100%;
+				background-color: #A0A0A0;
+			}
+
+			html {
+				display: table;
+				margin: auto;
+			}
+
+			body {
+				display: table-cell;
+				vertical-align: middle;
+			}
+			
+			a {
+				color: #b30000;
+			}
+			
+		</style>
+	</head>
+	<body>  
+	 
+		<form action="/register" method="POST">  
+		Ime: <input type="text" class="form-control" name="name" required>
+		</br>
+		Prezime: <input type="text" class="form-control" name="lastname" required>   
+		</br>
+		Adresa: <input type="text" class="form-control" name="address" required>
+		</br>
+		JMBG: <input type="text" class="form-control" name="jmbg" required>
+		</br>
+		Korisničko ime: <input type="text" class="form-control" name="username" required>   
+		</br>
+		Email: <input type="email" class="form-control" name="email" required>
+		</br>
+		Lozinka: <input type="password" class="form-control" name="pw" required>
+		</br>   
+		<input type="submit" value="Registruj se" class="btn btn-danger">  
+		</form>
+		
+		<a href="login"> Već ste registrovani? Ulogujte se </a>
+
+	</body>  
+</html>

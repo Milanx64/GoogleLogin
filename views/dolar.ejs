@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CST</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+  <div class="navbar-header">
+    
+  </div>
+  <ul class="nav navbar-nav">
+    <li class="active"><a href="/home">HOME</a></li>
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="/track">TRACKS
+      <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li><a href="/cst">CANNING STOCK ROUTE</a></li>
+        <li><a href="/ht">HOLLAND TRACK</a></li>
+        <li><a href="/dt">$1000 TRACK</a></li>
+        <li><a href="/lt">700km IN LOW RANGE</a></li>
+      </ul>
+    </li>
+    <li><a href="/about">ABOUT</a></li>
+    <li><a href="/contact">CONTACT</a></li>
+    <li><a href="/profile">MY PROFILE</a></li>
+  </ul>
+</div>
+</nav>
+
+<div id="section-a">
+<div class="container">
+    <div class="row">
+        <div id="section-a-content" class="col-md-12 col-sm-6">
+            <img src="../img/1000.jpg" width="200px" height="200px">
+            
+                <p>Tasmania  is an island state of Australia.
+                 It is located 240 km (150 mi) to the south of
+                  the Australian mainland, separated by the Bass Strait
+                  . The state encompasses the main island of Tasmania, 
+                  the 26th-largest island in the world, and the surrounding
+                   334 islands.[12] The state has a population of around 519,100
+                    as of June 2016, just over forty percent of which resides in
+                     the Greater Hobart precinct, which forms the metropolitan area 
+                     of the state capital and largest city, Hobart.</p>
+
+                
+
+            
+
+        </div>
+    </div>
+
+</div>
+</div>
+<div id="section-b">
+<div class="container">
+    <div class="row">
+        <div id="section-b-content" class="col-md-12 col-sm-6">
+        <img src="../img/1000-3.jpg" width="200px" height="200px">
+            <p>Cooldstream track also know as $1000 track in one of most difficult track in Tasmania and fun too
+            . It  is called $1000 track because of damage that can be do to the car.
+            Coldstream track have very large number of streams</p>
+              
+            
+            
+
+        </div>
+ </div>
+
+ </div>
+</div>
+
+<div id="section-c">
+<div class="container">
+<div class="row">
+    <div id="section-c-content" class="col-md-12 col-sm-6">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <div class="col-md-3"></div>
+        <div class="" id="about">
+        <h2 class="text-center">$1000 track in numubers</h2>
+        <p></p>
+          <table class="table table-dark table-striped text-center">
+          <thead>
+            <tr>
+              <th>Length</th>
+              <th>More then 30 km or 15 mile</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Time on road</th>
+              <th>More then 2 days</th>                    
+            </tr>
+            <tr>
+              <th>Driving skill</th>
+              <th>Professional</th>                    
+            </tr>
+            <tr>
+              <th>Difficulty</th>
+              <th>Not so hard</th>                    
+            </tr>
+          </tbody>
+        </table>
+        </div>
+            <h3>Registration for $1000 Track</h3>
+            <form action="/dt" method="post">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" name="name">
+                </div>
+                <div class="form-group">
+                    <label>Lastname</label>
+                    <input type="text" class="form-control" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <input type="text" class="form-control" name="address">
+                </div>
+                <div class="form-group">
+                    <label>Vehicle</label>
+                    <input type="text" class="form-control" name="vehicle">
+                </div>
+                <div class="form-group">
+                    <label>Contact email</label>
+                    <input type="text" class="form-control" name="conemail">
+                </div>
+                <div class="form-group">
+                    <label>Contact number</label>
+                    <input type="text" class="form-control" name="connum">
+                </div>
+                <div class="form-group">
+                    <label>Start date</label>
+                    <input type="date" class="form-control" name="date">
+                </div>
+                
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+            </form>
+
+        </div>
+        <div class="col-md-3"></div>
+        <div id="query" class="col-md-12">  
+            <div id="query-content" class="col-md-6">
+            <a href="/alldt" class="btn btn-default btn-sm">All registered for $1000 Track</a>
+            </div>
+            <div class="">
+            <p>
+           
+            <ul>
+            <%  for(var i=0; i<items.length; i++){ %>
+                <li><%= JSON.stringify(items[i]) %></li>
+                    <% } %>
+            </ul>
+           
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer id="footer" >
+<div class="row">
+  <div class="title"></div>
+  <div id="kontakt" class="col-md-3">
+  <h1 class="text-center">4WD Adventure</h1>
+    <h3>contact us:</h3>
+    <p>fon: +27/ 555- 555</p>
+    <p>fon: +27/55-55-55</p>
+    <p>Email:4wdadventure@gmail.com</p>
+    
+    
+  
+  </div>
+
+  <div id="mreze" class="centar col-md-6 text-center">
+    <h3>Social networks</h3>
+    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+    <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+    <div class="row">
+   
+  </div>
+  </div>
+
+  <div id="logo" class="col-md-3">
+    
+    <h4>&copy  Milan Marković</h4>
+  </div>
+
+</div>
+  
+</footer> 
+
+</body>
+</html>
