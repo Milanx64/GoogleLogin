@@ -16,7 +16,7 @@ var bodyParser=require('body-parser');
 var User = require('./app/models/user');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:false}));
-//app.use(bodyParser.json());
+
 app.use(bodyParser.urlencoded({ extended: false }));
 
 var configDB = require('./confing/database.js');
